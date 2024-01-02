@@ -1,0 +1,73 @@
+
+/* Resetting some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting box-sizing to border-box for easier layout control */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* css styling start */
+
+main{
+    overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* left div style */
+
+.main-left-div{
+    /* border: 1px solid #C0C0C0; */
+}
+
+.upper-left-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.user-img{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.top-search{
+    width: 100%;
+    padding: 2px 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.icons-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
